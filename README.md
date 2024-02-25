@@ -1,7 +1,7 @@
 # Polytech Assistant (Retrieval augmented generation)
 
 ## Pipeline architecture
-![](images\pipeline2.png)
+![](images/pipeline2.png)
 The proposed solution consists of a two-part pipeline designed to address the challenges identified in integrating Large Language Models (LLMs) with localized and heterogeneous typed polytech data for natural language query response.
 
 The first component of the pipeline involves pre-treatment of data. Here, we employ web scraping techniques to gather textual data from various websites and import the provided structured data (such as tabular and CSV formats), and PDF documents . Subsequently, we transform this diverse array of source data into embeddings, encoding them for storage within our vector database. This preprocessing step ensures that the data is efficiently organized and accessible for subsequent query processing.
